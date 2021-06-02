@@ -1,6 +1,3 @@
-#delete on line ctrl+shft+k
-#select on word in whole file ctrl+shift+l
-
 import pandas as pd
 import numpy as np
 import datetime
@@ -10,13 +7,6 @@ import matplotlib.pyplot as plt
 from pycoingecko import CoinGeckoAPI                        #although we are using coingecko API we will use a python client/wrapper for the API called pycoingecko
 #                                                             PyCoinGecko will make performing the requests easy and it will deal with the enpoint targeting
 from mplfinance.original_flavor import candlestick2_ohlc
-
-# dict={'a':[1,5,8,8,9,6,3,1,4,8,0],'b':[8,7,3,8,7,9,4,9,7,6,2]}
-# df=pd.DataFrame(dict)
-# print(df)
-# print(df.head())
-# print(df.mean())
-
 
 #coingeckoAPI to create candlestick graphs for BITCOIN
 cg=CoinGeckoAPI()
